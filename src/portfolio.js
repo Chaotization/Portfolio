@@ -20,26 +20,25 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Chaotization",
+  title: "Hi all, I'm Eric",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A results-driven Full Stack Developer 🚀 with over 8 years of experience building high-performance web applications using modern technologies like JavaScript, TypeScript, React.js, Next.js, Node.js, and Vue. Skilled in crafting responsive UIs, developing scalable backend services, and deploying cloud-native applications on AWS. Adept at building reusable components, implementing robust state management, and optimizing performance across the full stack. Passionate about delivering clean, maintainable code and continuously exploring new tools and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1E0QjhNGT3SvNZeoqf-Try8TYEtzf6PmD/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/chaotization",
+  linkedin: "https://www.linkedin.com/in/",
+  gmail: "ericz17career@gmail.com",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +48,19 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK ENGINEER WITH A FOCUS ON SCALABLE SYSTEMS AND MODERN WEB ARCHITECTURE",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build responsive and dynamic web interfaces using React.js, TypeScript, Next.js, and Redux"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Develop full-stack applications with RESTful APIs, optimized backend services, and real-time data handling"
+    ),
+    emoji(
+      "⚡ Integrate and deploy cloud-native solutions using AWS (ECS, Lambda, API Gateway) and Firebase"
+    ),
+    emoji(
+      "⚡ Optimize performance through code splitting, caching, virtualization, and database tuning"
     )
   ],
 
@@ -65,15 +69,15 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "Sass",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
@@ -81,49 +85,61 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "React.js",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Redux",
+      fontAwesomeClassname: "fas fa-sync-alt"
+    },
+    {
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Express.js",
+      fontAwesomeClassname: "fas fa-server"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Next.js",
+      fontAwesomeClassname: "fas fa-code-branch"
     },
     {
-      skillName: "sql-database",
+      skillName: "PostgreSQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-leaf"
+    },
+    {
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
-};
+  display: true
+}
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Harvard University",
@@ -150,53 +166,81 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend / UI Engineering",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Backend",
+      Stack: "Backend / API Development",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Programming & Scripting",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Cloud & DevOps",
+      progressPercentage: "65%"
+    },
+    {
+      Stack: "Data & Analytics",
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
+
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Full Stack Engineer",
+      company: "neARabl Inc",
+      companylogo: require("./assets/images/neARablLogo.webp"),
+      date: "Jul 2023 – Feb 2025",
+      desc: "Built a real-time AR dashboard for indoor spatial intelligence using modern web technologies and scalable cloud services.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed responsive UIs with React.js, Next.js, and TypeScript for rendering real-time AR spatial data",
+        "Built custom hooks and implemented React Router v6 for SPA navigation tailored to AR UX flows",
+        "Optimized rendering performance with React.memo, useCallback, and virtualization (react-window)",
+        "Designed and deployed RESTful Flask APIs on AWS ECS with API Gateway for scalable service interaction",
+        "Integrated Amazon DocumentDB and DynamoDB for real-time data operations and high availability",
+        "Trained ML models (Scikit-learn) to correct geolocation drift and enhance AR overlay precision"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "MoneyLion",
+      companylogo: require("./assets/images/moneylionLogo.png"),
+      date: "Feb 2021 – Apr 2023",
+      desc: "Developed a secure authorization platform for managing user access across financial products.",
+      descBullets: [
+        "Built an access control dashboard with React.js, TypeScript, Redux Toolkit, and React Router v6",
+        "Synchronized real-time user permissions with Firebase Realtime Database",
+        "Created Node.js/Express microservices to handle policy logic and audit logging",
+        "Integrated Firebase Auth, Auth0, and OAuth 2.0 for secure, SSO-enabled authentication flows",
+        "Used PostgreSQL for role persistence and Redis for token/session validation",
+        "Deployed with AWS ECS and Lambda, monitored through CloudWatch"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "Basis Technologies",
+      companylogo: require("./assets/images/basisTechLogo.png"),
+      date: "Aug 2018 – Dec 2020",
+      desc: "Supported a large-scale migration of campaign performance data from MySQL to MongoDB with QA automation tooling.",
+      descBullets: [
+        "Developed a QA validation dashboard with React.js, Chart.js, and virtualized list rendering",
+        "Built visualizations for comparing SQL and NoSQL datasets with real-time filtering",
+        "Wrote data transformation scripts in Node.js to reshape campaign data into MongoDB-compatible formats",
+        "Created efficient MongoDB indexing strategies to accelerate dashboard queries",
+        "Tested and validated API endpoints using Postman to ensure accurate frontend integration"
+      ]
     }
   ]
 };
@@ -213,95 +257,63 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "PRODUCTS & PLATFORMS I HELPED ARCHITECT, SHIP, OR SCALE",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/neARabl-1.png"),
+      projectName: "neARabl – interactive dashboard",
+      projectDesc:
+        "Developed a real-time AR dashboard for indoor navigation and spatial data visualization using React, Flask, AWS ECS, and Scikit-learn. Enabled seamless 2D overlay accuracy and live telemetry analytics.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Company",
+          url: "https://www.nearabl.com"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/moneylion-1.png"),
+      projectName: "MoneyLion – Authorization Platform",
+      projectDesc:
+        "Built a centralized access management dashboard for a fintech platform. Used React, Node.js, Firebase, and AWS Lambda to control real-time permissions across banking, credit, and investment modules.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit Company",
+          url: "https://www.moneylion.com"
         }
       ]
-    }
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements and Certifications 🏆"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Certifications, recognitions, and notable project accomplishments from academic and professional experience.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AWS Certified Developer – Associate",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Earned AWS Developer Associate certification, demonstrating proficiency in designing, deploying, and debugging cloud-native applications.",
+      image: require("./assets/images/awsLogo.png"),
+      imageAlt: "AWS Certification Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View Certification",
+          url: "https://www.credly.com/badges/6ee094b2-394d-4018-b463-b706eb393eb3/public_url" // Optional: replace with your public badge if available
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Blogs Section
 
@@ -324,7 +336,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +355,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +368,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,18 +384,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1(347) 503-3321",
+  email_address: "ericz17career@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
