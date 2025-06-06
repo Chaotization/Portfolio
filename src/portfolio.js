@@ -26,7 +26,7 @@ const greeting = {
     "A results-driven Full Stack Developer 🚀 with over 8 years of experience building high-performance web applications using modern technologies like JavaScript, TypeScript, React.js, Next.js, Node.js, and Vue. Skilled in crafting responsive UIs, developing scalable backend services, and deploying cloud-native applications on AWS. Adept at building reusable components, implementing robust state management, and optimizing performance across the full stack. Passionate about delivering clean, maintainable code and continuously exploring new tools and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1E0QjhNGT3SvNZeoqf-Try8TYEtzf6PmD/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1pEpMmqP1IEOfoFd0VYCKA9T8-ZPP1SQv/view?usp=drive_link",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/chaotization",
-  linkedin: "https://www.linkedin.com/in/",
+  linkedin: "https://www.linkedin.com/in/eric-z17/",
   gmail: "ericz17career@gmail.com",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
