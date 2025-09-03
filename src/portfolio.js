@@ -200,46 +200,66 @@ const workExperiences = {
   experience: [
     {
       role: "Full Stack Engineer",
-      company: "neARabl Inc",
-      companylogo: require("./assets/images/neARablLogo.webp"),
-      date: "Jul 2023 – Feb 2025",
-      desc: "Built a real-time AR dashboard for indoor spatial intelligence using modern web technologies and scalable cloud services.",
+      company: "MoneyLion",
+      companylogo: require("./assets/images/moneylionLogo.png"),
+      date: "Jul 2023 – May 2025",
+      desc: "Built a full-stack wealth management platform with real-time portfolio analytics, trading dashboards, and market data processing using Spring Boot, Kafka, React/TypeScript, and AWS.",
       descBullets: [
-        "Developed responsive UIs with React.js, Next.js, and TypeScript for rendering real-time AR spatial data",
-        "Built custom hooks and implemented React Router v6 for SPA navigation tailored to AR UX flows",
-        "Optimized rendering performance with React.memo, useCallback, and virtualization (react-window)",
-        "Designed and deployed RESTful Flask APIs on AWS ECS with API Gateway for scalable service interaction",
-        "Integrated Amazon DocumentDB and DynamoDB for real-time data operations and high availability",
-        "Trained ML models (Scikit-learn) to correct geolocation drift and enhance AR overlay precision"
+        "Architected portfolio analytics platform using Spring Boot with Java virtual threads and Kafka event streaming, implementing real-time investment recommendation engines and portfolio performance tracking services supporting concurrent wealth management operations",
+        "Built high-frequency trading dashboard with React/TypeScript consuming Spring WebSocket APIs, developing live market data visualization and order execution interfaces with drag-and-drop portfolio rebalancing tools for financial advisors",
+        "Designed market data processing infrastructure using Spring Cloud Gateway and AWS RDS Aurora PostgreSQL clusters, implementing real-time market event ingestion services and fault-tolerant message delivery for portfolio value calculations",
+        "Developed multi-tenant advisor platform with Next.js SSR and JWT authentication, creating role-based dashboard interfaces for financial advisors and clients with compliance tracking and portfolio management capabilities",
+        "Implemented portfolio management system with event sourcing and CQRS architecture, building real-time risk calculation engines and trade reconciliation services across equities, bonds, and crypto assets with audit trail functionality",
+        "Optimized trading interface performance through Redis distributed caching and D3.js portfolio visualizations, implementing interactive charts and dashboards for complex financial data analytics and portfolio monitoring",
+        "Built financial data integration pipelines using Spring Batch and AWS Lambda, developing automated Bloomberg and Refinitiv API processors with data validation and portfolio calculation services",
+        "Established automated deployment infrastructure implementing GitHub Actions CI/CD with Kubernetes, creating comprehensive testing frameworks and deployment automation for wealth management platform releases"
       ]
     },
     {
       role: "Software Engineer",
-      company: "MoneyLion",
-      companylogo: require("./assets/images/moneylionLogo.png"),
+      company: "neARabl",
+      companylogo: require("./assets/images/neARablLogo.webp"),
       date: "Feb 2021 – Apr 2023",
       desc: "Developed a secure authorization platform for managing user access across financial products.",
       descBullets: [
-        "Built an access control dashboard with React.js, TypeScript, Redux Toolkit, and React Router v6",
-        "Synchronized real-time user permissions with Firebase Realtime Database",
-        "Created Node.js/Express microservices to handle policy logic and audit logging",
-        "Integrated Firebase Auth, Auth0, and OAuth 2.0 for secure, SSO-enabled authentication flows",
-        "Used PostgreSQL for role persistence and Redis for token/session validation",
-        "Deployed with AWS ECS and Lambda, monitored through CloudWatch"
+        "Developed AR navigation dashboard using React.js and Next.js, building floor-switching interfaces, zoom-capable spatial maps, and real-time asset tracking visualization for complex building environments",
+        "Created reusable AR overlay components using TypeScript and Tailwind CSS, building modular architecture for interactive floor maps, live position tracking, and facility maintenance alerts",
+        "Collaborated with design teams to translate AR interface wireframes into functional spatial navigation components, establishing consistent design system for directional arrows and position markers",
+        "Optimized AR interface performance implementing React.memo and virtualized rendering for spatial data visualization, ensuring smooth performance during continuous WebSocket streams from IoT sensors",
+        "Troubleshot AR dashboard issues resolving real-time position synchronization problems, cross-device compatibility, and spatial data rendering bugs for indoor navigation systems",
+        "Participated in code reviews for AR visualization components, providing feedback on React performance optimization for continuous data streams and maintaining 60fps rendering",
+        "Integrated GraphQL with Django REST APIs for efficient spatial data fetching, implementing fine-grained queries for building layouts and real-time facility data to improve dashboard responsiveness",
+        "Configured CI/CD pipelines using Github Action for automated testing and deployment of AR dashboard components to AWS ECS, improving release reliability for spatial intelligence platform",
       ]
     },
     {
       role: "Software Engineer",
       company: "Basis Technologies",
       companylogo: require("./assets/images/basisTechLogo.png"),
-      date: "Aug 2018 – Dec 2020",
+      date: "Aug 2018 – Nov 2020",
       desc: "Supported a large-scale migration of campaign performance data from MySQL to MongoDB with QA automation tooling.",
       descBullets: [
-        "Developed a QA validation dashboard with React.js, Chart.js, and virtualized list rendering",
-        "Built visualizations for comparing SQL and NoSQL datasets with real-time filtering",
-        "Wrote data transformation scripts in Node.js to reshape campaign data into MongoDB-compatible formats",
-        "Created efficient MongoDB indexing strategies to accelerate dashboard queries",
-        "Tested and validated API endpoints using Postman to ensure accurate frontend integration"
+        "Created data migration validation dashboard using React.js with Redux, enabling QA analysts to verify campaign record integrity during MySQL to MongoDB migration with interactive data comparison interfaces",
+        "Developed real-time data comparison visualizations using D3.js and WebSocket connections, building side-by-side record views with metric filtering for impressions, clicks, conversions and automated anomaly detection",
+        "Built campaign analytics interface integrating Chart.js for trend analysis and implementing React.memo with virtualization to maintain responsive performance when displaying large campaign datasets",
+        "Engineered data transformation services using Node.js streams and worker threads, creating automated pipelines converting relational campaign data into MongoDB-compatible JSON schemas with validation reporting",
+        "Optimized dashboard query performance designing MongoDB compound indexes and aggregation pipelines for campaign data retrieval, reducing dashboard load times significantly through database optimization",
+        "Established API testing framework using Postman collections and Newman automation, creating comprehensive REST endpoint validation with documentation for frontend dashboard integration workflows"
+      ]
+    },
+    {
+      role: "Junior Backend Engineer",
+      company: "HDR",
+      companylogo: require("./assets/images/HDRLogo.png"),
+      date: "Aug 2018 – Nov 2020",
+      desc: "Supported a large-scale migration of campaign performance data from MySQL to MongoDB with QA automation tooling.",
+      descBullets: [
+        "Built project tracking platform using Java and Spring Boot, creating backend services for engineering team resource management, timeline monitoring, and project status reporting",
+        "Developed project management APIs with Spring MVC for project timeline creation, document version control, and team collaboration workflows including task assignment and progress tracking",
+        "Designed engineering documentation database using PostgreSQL with JPA/Hibernate, creating schemas for project specifications storage and compliance record management systems",
+        "Created legacy data migration pipelines using Java processing services, building automated workflows converting Excel project data into structured database records with validation",
+        "Optimized project dashboard performance designing MongoDB indexes for query acceleration, implementing database optimizations that minimize load times for engineering resource reporting",
+        "Implemented secure access control system using Spring Security with role-based permissions, creating authentication services for project data protection with comprehensive unit testing"
       ]
     }
   ]
@@ -260,8 +280,20 @@ const bigProjects = {
   subtitle: "PRODUCTS & PLATFORMS I HELPED ARCHITECT, SHIP, OR SCALE",
   projects: [
     {
+      image: require("./assets/images/moneylion-1.png"),
+      projectName: "MoneyLion – Wealth Management Platform",
+      projectDesc:
+        "Built a centralized access management dashboard for a fintech platform. Used Next.js, Spring Boot, Kafka and AWS to control real-time permissions across banking, credit, and investment modules.",
+      footerLink: [
+        {
+          name: "Visit Company",
+          url: "https://www.moneylion.com"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/neARabl-1.png"),
-      projectName: "neARabl – interactive dashboard",
+      projectName: "neARabl – Spatial Operations Dashboard",
       projectDesc:
         "Developed a real-time AR dashboard for indoor navigation and spatial data visualization using React, Flask, AWS ECS, and Scikit-learn. Enabled seamless 2D overlay accuracy and live telemetry analytics.",
       footerLink: [
@@ -272,17 +304,30 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/moneylion-1.png"),
-      projectName: "MoneyLion – Authorization Platform",
+      image: require("./assets/images/basisTech-1.png"),
+      projectName: "Basis Technologies - Campaign Insights Data Migration",
       projectDesc:
-        "Built a centralized access management dashboard for a fintech platform. Used React, Node.js, Firebase, and AWS Lambda to control real-time permissions across banking, credit, and investment modules.",
+        "Developed a high-performance data migration validation dashboard using React.js, D3.js, and Node.js, enabling real-time QA verification and analytics during MySQL to MongoDB migration.",
       footerLink: [
         {
-          name: "Visit Company",
-          url: "https://www.moneylion.com"
+          name: "View Company",
+          url: "https://www.basistechnologies.com/"
         }
       ]
     },
+    {
+      image: require("./assets/images/HDRLogo.png"),
+      projectName: "HDR - Management Platform",
+      projectDesc:
+        "Developed a full-stack project tracking platform using Java, Spring Boot, and PostgreSQL/MongoDB, featuring secure APIs for engineering resource management, timeline tracking, and document collaboration.",
+      footerLink: [
+        {
+          name: "View Company",
+          url: "https://www.hdrinc.com/"
+        }
+      ]
+    },
+
   ],
   display: true
 };
