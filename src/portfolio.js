@@ -203,7 +203,7 @@ const workExperiences = {
       company: "MoneyLion",
       companylogo: require("./assets/images/moneylionLogo.png"),
       date: "Jul 2023 – May 2025",
-      desc: "Built a full-stack wealth management platform with real-time portfolio analytics, trading dashboards, and market data processing using Spring Boot, Kafka, React/TypeScript, and AWS.",
+      desc: "Built full-stack wealth management platform with real-time analytics using Spring Boot, Kafka, React, and AWS.",
       descBullets: [
         "Architected portfolio analytics platform using Spring Boot with Java virtual threads and Kafka event streaming, implementing real-time investment recommendation engines and portfolio performance tracking services supporting concurrent wealth management operations",
         "Built high-frequency trading dashboard with React/TypeScript consuming Spring WebSocket APIs, developing live market data visualization and order execution interfaces with drag-and-drop portfolio rebalancing tools for financial advisors",
@@ -220,7 +220,7 @@ const workExperiences = {
       company: "neARabl",
       companylogo: require("./assets/images/neARablLogo.webp"),
       date: "Feb 2021 – Apr 2023",
-      desc: "Developed a secure authorization platform for managing user access across financial products.",
+      desc: "Developed AR navigation dashboard with React and TypeScript for real-time indoor mapping and asset tracking.",
       descBullets: [
         "Developed AR navigation dashboard using React.js and Next.js, building floor-switching interfaces, zoom-capable spatial maps, and real-time asset tracking visualization for complex building environments",
         "Created reusable AR overlay components using TypeScript and Tailwind CSS, building modular architecture for interactive floor maps, live position tracking, and facility maintenance alerts",
@@ -251,7 +251,7 @@ const workExperiences = {
       role: "Junior Backend Engineer",
       company: "HDR",
       companylogo: require("./assets/images/HDRLogo.png"),
-      date: "Aug 2018 – Nov 2020",
+      date: "May 2016 – Jun 2018",
       desc: "Supported a large-scale migration of campaign performance data from MySQL to MongoDB with QA automation tooling.",
       descBullets: [
         "Built project tracking platform using Java and Spring Boot, creating backend services for engineering team resource management, timeline monitoring, and project status reporting",
